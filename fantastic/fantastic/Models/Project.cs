@@ -1,4 +1,6 @@
-﻿namespace fantastic.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace fantastic.Models
 {
     public class Project
     {
@@ -9,7 +11,9 @@
         public int OrganisationId { get; set; }
 
         // Navigation properties
+        [Required]
         public Organisation Organisation { get; set; }
+        [Required]
         public User User { get; set; }
     }
 }
