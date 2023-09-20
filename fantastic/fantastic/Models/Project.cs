@@ -11,9 +11,7 @@ namespace fantastic.Models
         public int OrganisationId { get; set; }
 
         // Navigation properties
-        [Required]
-        public Organisation Organisation { get; set; }
-        [Required]
-        public User User { get; set; }
+        public Organisation? Organisation { get; set; }
+        public User? User { get; set; }
     }
 }
