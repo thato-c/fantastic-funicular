@@ -6,6 +6,7 @@
         public string UserEmail { get; set; } 
         public string Password { get; set; }
 
+        // Navigation properties
         public ICollection<Project> Projects { get; set; }
     }
 }

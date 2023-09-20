@@ -8,6 +8,7 @@
         public int UserId { get; set; }
         public int OrganisationId { get; set; }
 
+        // Navigation properties
         public Organisation Organisation { get; set; }
         public User User { get; set; }
     }
