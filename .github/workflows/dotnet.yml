@@ -7,10 +7,12 @@ on:
   push:
     branches: 
       - "main"
+      - "model-entities"
       
   pull_request:
     branches: 
       - "main"
+      - "model-entities"
 
 jobs:
   build:
